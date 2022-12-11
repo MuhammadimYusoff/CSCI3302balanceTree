@@ -13,8 +13,6 @@ struct Node {
 dumpData[] = {2, 13, 7, 16, 19, 9, 22, 10, 14, 17}
 
 
-
-
 // Check Tree Balance Function
 class isTreeBalance {
     int height; // store the height of the subtrees
