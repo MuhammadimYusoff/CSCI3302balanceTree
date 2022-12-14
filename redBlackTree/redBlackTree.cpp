@@ -3,6 +3,7 @@
 #include <iostream>
 using namespace std;
 
+// Create instance of Main Tree
 struct Node {
   int data;
   Node *parent;
@@ -13,11 +14,13 @@ struct Node {
 
 typedef Node *NodePtr;
 
+ // Create Class for Red-Black Tree Logic
 class RedBlackTree {
    private:
   NodePtr root;
   NodePtr TNULL;
 
+  // Create Tree Node with NULL value, as starting we create a NULL root
   void initializeNULLNode(NodePtr node, NodePtr parent) {
     node->data = 0;
     node->parent = parent;
