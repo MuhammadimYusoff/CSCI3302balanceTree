@@ -10,7 +10,7 @@ struct Node {
 };
 
 // Dummy Data
-dumpData[] = {2, 13, 7, 16, 19, 9, 22, 10, 14, 17}
+int dumpData[10] = {2, 13, 7, 16, 19, 9, 22, 10, 14, 17};
 
 
 // Check Tree Balance Function
