@@ -309,13 +309,4 @@ int dumpData[10] = {13, 7, 16, 19, 9, 22, 10, 14, 17};
         bst.insert(data);
     }
     bst.printTree();
-
-//   bst.insert(55);
-//   bst.insert(40);
-//   bst.insert(65);
-//   bst.insert(60);
-//   bst.insert(75);
-//   bst.insert(57);
-
-//   bst.printTree();
 }
